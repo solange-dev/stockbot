@@ -15,7 +15,7 @@ import { Session } from '@/lib/types'
 async function UserOrLogin() {
   return (
     <>
-      <Link href="https://wow.groq.com/groq-labs/" rel="nofollow">
+      <Link href="https://solange.io/" rel="nofollow">
         {/* <IconGroq className="size-6 mr-2 dark:hidden" />
           <IconGroq className="hidden size-6 mr-2 dark:block" /> */}
         <Image
@@ -52,16 +52,16 @@ export function Header() {
         </React.Suspense>
       </div>
       <div className="flex items-center justify-end space-x-2">
-        {/* <a
+        <a
           target="_blank"
-          href="https://github.com/bklieger-groq/groq-gen-ui/"
+          href="https://solange.io/"
           rel="noopener noreferrer"
           className={cn(buttonVariants({ variant: 'outline' }))}
           style={{ borderRadius: 0 }}
         >
-          <IconGitHub />
-          <span className="hidden ml-2 md:flex">GitHub</span>
-        </a> */}
+          {/* <IconGitHub /> */}
+          <span className="hidden ml-2 md:flex">Back to web</span>
+        </a>
       </div>
     </header>
   )
