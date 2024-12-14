@@ -11,7 +11,7 @@ export function EmptyScreen() {
           Welcome to the StockBot powered by Groq!
         </h1>
         <p className="leading-normal text-sm">
-          Open source AI chatbot that uses function calling to render relevant
+          The AI chatbot that uses function calling to render relevant
           TradingView stock market widgets.{' '}
           <span className="font-muted-foreground">
             Built with{' '}
