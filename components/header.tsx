@@ -19,7 +19,7 @@ async function UserOrLogin() {
         {/* <IconGroq className="size-6 mr-2 dark:hidden" />
           <IconGroq className="hidden size-6 mr-2 dark:block" /> */}
         <Image
-          src="/groqlabs-logo-black.png"
+          src="/favicon.png"
           alt="GroqLabs Logo"
           width={100}
           height={30}
@@ -52,7 +52,7 @@ export function Header() {
         </React.Suspense>
       </div>
       <div className="flex items-center justify-end space-x-2">
-        <a
+        {/* <a
           target="_blank"
           href="https://github.com/bklieger-groq/groq-gen-ui/"
           rel="noopener noreferrer"
@@ -61,7 +61,7 @@ export function Header() {
         >
           <IconGitHub />
           <span className="hidden ml-2 md:flex">GitHub</span>
-        </a>
+        </a> */}
       </div>
     </header>
   )
