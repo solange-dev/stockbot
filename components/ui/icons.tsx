@@ -126,7 +126,7 @@ function IconGroq({ className, ...props }: React.ComponentProps<'svg'>) {
     //     />
     //   </g>
     // </svg>
-    <img src="/solangemain.png"/>
+    <img src="/favicon.png"/>
   )
 }
 
