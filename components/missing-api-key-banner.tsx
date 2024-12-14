@@ -16,7 +16,7 @@ export function MissingApiKeyBanner({
   return (
     <div className="border p-4">
       <div className="text-red-700 font-medium">
-        You need to provide a Groq API Key.
+        You need to provide a solange.io API Key.
       </div>
       <a
         href="https://console.groq.com/keys"
@@ -28,7 +28,7 @@ export function MissingApiKeyBanner({
           style={{ textDecoration: 'underline' }}
         >
           {' '}
-          Get a Groq API Key
+          Get a solange.io API Key
         </span>
       </a>
     </div>

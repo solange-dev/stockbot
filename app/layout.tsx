@@ -13,8 +13,7 @@ export const metadata = {
     ? new URL(`https://${process.env.VERCEL_URL}`)
     : undefined,
   title: {
-    // default: 'StockBot powered by Groq',
-    default: 'Solange',
+    default: 'StockBot powered by solange.io',
     // template: `%s - StockBot powered by Groq`
   },
   description:

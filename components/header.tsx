@@ -20,7 +20,7 @@ async function UserOrLogin() {
           <IconGroq className="hidden size-6 mr-2 dark:block" /> */}
         <Image
           src="/favicon.png"
-          alt="GroqLabs Logo"
+          alt="solange.io Logo"
           width={100}
           height={30}
         />
